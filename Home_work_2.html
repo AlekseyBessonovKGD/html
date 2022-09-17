@@ -18,7 +18,8 @@
     </style>
 </head>
 <body>
-    <h1>Автомобиль Renault Logan</h1>
+    <h1><div id="hello"></div></h1>
+    <h2>Автомобиль Renault Logan</h2>
     <p>
         <strong>Renault Logan</strong> — бюджетный субкомпактный автомобиль, разработанный компанией Renault специально для
         развивающихся рынков. Основное производство развёрнуто в Румынии на заводе промышленной группы Dacia, с 1999 
@@ -31,7 +32,7 @@
         однако все еще можно приобрести остатки автомобилей у <a href="https://trinity-renault.ru">официального диллера</a>
     </p>
     <img src="https://renaultlogan2.ru/wp-content/uploads/2015/01/3-1.jpg" alt="Renault_Logan_2st_generation" width = 50% hspace="400">
-    <h2>Технические характеристики</h2>
+    <h3>Технические характеристики</h3>
     <Ol>
         <li><strong>Общая информация</strong></li>
         <ul>
@@ -56,5 +57,13 @@
             <li>Полная масса - 1545 кг</li>
         </ul>
     </Ol> 
+    <script>
+        let name = prompt('Пожалуйста, представьтесь');
+        if (name) {
+      document.querySelector('#hello').innerHTML = `Привет! ${name}, добро пожаловать на сайт!`;
+    } else {
+      document.querySelector('#hello').innerHTML = 'Привет! Гость, добро пожаловать на сайт!';
+    }
+    </script>
 </body>
 </html>
