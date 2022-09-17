@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,29 +10,39 @@
         h1 {
             color: blueviolet;
         }
-       body {
-        background-color: black;
-       }
-       p, h2, ol {
-        color: azure;
-       }
+
+        body {
+            background-color: black;
+        }
+
+        p,
+        h2,
+        ol {
+            color: azure;
+        }
     </style>
 </head>
+
 <body>
-    <h1><div id="hello"></div></h1>
+    <h1>
+        <div id="hello"></div>
+    </h1>
     <h2>Автомобиль Renault Logan</h2>
     <p>
-        <strong>Renault Logan</strong> — бюджетный субкомпактный автомобиль, разработанный компанией Renault специально для
-        развивающихся рынков. Основное производство развёрнуто в Румынии на заводе промышленной группы Dacia, с 1999 
+        <strong>Renault Logan</strong> — бюджетный субкомпактный автомобиль, разработанный компанией Renault специально
+        для
+        развивающихся рынков. Основное производство развёрнуто в Румынии на заводе промышленной группы Dacia, с 1999
         года принадлежащей компании Renault.В России первое поколение автомобиля выпускалось с 2005 года по декабрь 2015
         на заводе <a href="https://www.lada.ru/otherclients">Автофрамос</a> (позже Лада Россия») в Москве.
     </p>
-    <img src="https://wroom.ru/i2/carpic/2089.jpg" alt="Renault_Logan_1st_generation" width = 50% hspace="400">
+    <img src="https://wroom.ru/i2/carpic/2089.jpg" alt="Renault_Logan_1st_generation" width=50% hspace="400">
     <p>
-        с 2014 года на заводе АвтоВАЗ в Тольятти выпускается второе поколение. На текущий момент производство свернуто, 
-        однако все еще можно приобрести остатки автомобилей у <a href="https://trinity-renault.ru">официального диллера</a>
+        с 2014 года на заводе АвтоВАЗ в Тольятти выпускается второе поколение. На текущий момент производство свернуто,
+        однако все еще можно приобрести остатки автомобилей у <a href="https://trinity-renault.ru">официального
+            диллера</a>
     </p>
-    <img src="https://renaultlogan2.ru/wp-content/uploads/2015/01/3-1.jpg" alt="Renault_Logan_2st_generation" width = 50% hspace="400">
+    <img src="https://renaultlogan2.ru/wp-content/uploads/2015/01/3-1.jpg" alt="Renault_Logan_2st_generation" width=50%
+        hspace="400">
     <h3>Технические характеристики</h3>
     <Ol>
         <li><strong>Общая информация</strong></li>
@@ -56,14 +67,15 @@
             <li>Снаряженная масса - 1106 кг</li>
             <li>Полная масса - 1545 кг</li>
         </ul>
-    </Ol> 
+    </Ol>
     <script>
         let name = prompt('Пожалуйста, представьтесь');
         if (name) {
-      document.querySelector('#hello').innerHTML = `Привет! ${name}, добро пожаловать на сайт!`;
-    } else {
-      document.querySelector('#hello').innerHTML = 'Привет! Гость, добро пожаловать на сайт!';
-    }
+            document.querySelector('#hello').innerHTML = `Привет! ${name}, добро пожаловать на сайт!`;
+        } else {
+            document.querySelector('#hello').innerHTML = 'Привет! Гость, добро пожаловать на сайт!';
+        }
     </script>
 </body>
+
 </html>
